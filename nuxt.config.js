@@ -1,10 +1,10 @@
 import colors from 'vuetify/lib/util/colors'
 
 export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+  // Target (https://go.nuxtjs.dev/config-target)
+  target: 'server',
+
+  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Mohsen Pakzad',
     meta: [
@@ -16,35 +16,29 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
+
+  // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
+  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: true,
+
+  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
+  // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
   ],
-  /*
- ** vuetify module configuration
- ** https://github.com/nuxt-community/vuetify-module
- */
+
+  // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {

@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "moment": "^2.27.0",
-    "nuxt": "^2.0.0"
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0"
