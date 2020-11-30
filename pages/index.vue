@@ -2,6 +2,9 @@
   <v-container fluid>
     <v-row class="ma-3">
       <v-col>
+        <v-avatar class="mb-4" size="250">
+          <v-img src="/me.jpg"></v-img>
+        </v-avatar>
         <h1 class="font-weight-medium text-h3 py-3">
           Hello.
         </h1>
