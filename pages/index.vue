@@ -10,7 +10,7 @@
         </h2>
 
         <!-- TODO: make formattedAge show also months and days -->
-        <h3 class="font-weight-medium display-1 py-3">
+        <h3 class="font-weight-medium text-h4 py-3">
           I born in {{ myFormattedBirthday }}, and currently {{ myFormattedAge }} old.
         </h3>
         <p class="font-weight-regular headline py-4">
@@ -18,7 +18,7 @@
         </p>
         <v-btn
             outlined
-            href="https://github.com/mohsenpakzad"
+            :href="myGithubPageLink"
             target="_blank"
             large
         >
@@ -36,6 +36,7 @@ import moment from 'moment';
 export default {
   name: 'index',
   data: () => ({
+    myGithubPageLink: 'https://github.com/mohsenpakzad',
     myBirthday: moment('1999-7-25')
   }),
   computed: {
