@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6"
   },
